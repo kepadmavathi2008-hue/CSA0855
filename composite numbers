@@ -1,0 +1,19 @@
+a = int(input("Enter A: "))
+n = int(input("Enter N: "))
+for num in range(a, n + 1):
+    if num > 1:
+        count = 0
+        for i in range(1, num + 1):
+            if num % i == 0:
+                count = count + 1
+        if count > 2:
+            print(num)
+
+
+output:
+composite number: 4
+composite number: 6
+composite number: 8
+composite number: 9
+composite number: 10
+
