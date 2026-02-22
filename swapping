@@ -3,11 +3,13 @@ y=10
 temp=x
 x=y
 y=temp
-print(f"the value of {x} after swapping is {x}")
-print(f"the value of {y} after swapping is {y}")
+print('the value of x after swapping:{}'. format(x))
+print('the value of y after swapping:{}'. format(y))
+
 
 
 
 otput:
-x=10
-y=5
+the value of x after swapping:5
+the value of y after swapping:10
+
