@@ -1,0 +1,21 @@
+arr=[14,16,27,36,25,89,34]
+m=1
+n=3
+arr.sort()
+mthmax=arr[-m]
+nthmin=arr[n-1]
+sum=mthmax+nthmin
+difference=mthmax-nthmin
+print("arr",arr)
+print("mthmaximum",mthmax)
+print("nthminimum",nthmin)
+print("sum",sum)
+print("difference",difference)
+
+
+output:
+arr [14, 16, 25, 27, 34, 36, 89]
+mth maximum 89
+nth minimum 25
+sum 114
+difference 64
