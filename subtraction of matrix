@@ -1,0 +1,16 @@
+a=[[1,2,3],[4,5,6],[7,8,9]]
+b=[[9,8,7],[6,9,5],[9,4,6]]
+c=[[0,0,0],[0,0,0],[0,0,0]]
+for i in range(3):
+    for j in range(3):
+        c[i][j]=a[i][j]-b[i][j]
+print("resultant matrix:")
+for row in c:
+    print(row)
+
+
+    output:
+    resultant matrix:
+[-8, -6, -4]
+[-2, -4, 1]
+[-2, 4, 3]
