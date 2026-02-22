@@ -1,0 +1,16 @@
+arr=[10,20,10,30,40]
+arr.sort()
+mean=sum(arr)/len(arr)
+median=arr[len(arr)//2]
+mode=max(arr,key=arr.count)
+print("arr sorted",arr)
+print("mean",mean)
+print("median",median)
+print("mode",mode)
+
+
+output:
+arr sorted [10, 10, 20, 30, 40]
+mean 22.0
+median 20
+mode 10
