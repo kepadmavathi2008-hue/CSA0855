@@ -1,0 +1,7 @@
+a=[1,4,2,3,86,7,5]
+a.sort()
+print("sorted array",a)
+
+
+output:
+sorted array [1, 2, 3, 4, 5, 7, 86]
